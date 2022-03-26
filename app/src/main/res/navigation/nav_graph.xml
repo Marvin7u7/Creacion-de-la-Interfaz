@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.uca.edu.ni.peliculas.fragments.MenuFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/irClasificacion"
+            app:destination="@id/clasificacionFragment" />
+        <action
+            android:id="@+id/irGenero"
+            app:destination="@id/generoFragment" />
+        <action
+            android:id="@+id/irIdioma"
+            app:destination="@id/idiomaFragment" />
+        <action
+            android:id="@+id/irPelicula"
+            app:destination="@id/peliculaFragment" />
+        <action
+            android:id="@+id/irNacionalidad"
+            app:destination="@id/nacionalidadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clasificacionFragment"
+        android:name="com.uca.edu.ni.peliculas.fragments.ClasificacionFragment"
+        android:label="@string/clasificacion"
+        tools:layout="@layout/fragment_clasificacion" />
+    <fragment
+        android:id="@+id/generoFragment"
+        android:name="com.uca.edu.ni.peliculas.fragments.GeneroFragment"
+        android:label="@string/genero"
+        tools:layout="@layout/fragment_genero" />
+    <fragment
+        android:id="@+id/idiomaFragment"
+        android:name="com.uca.edu.ni.peliculas.fragments.IdiomaFragment"
+        android:label="@string/idioma"
+        tools:layout="@layout/fragment_idioma" />
+    <fragment
+        android:id="@+id/nacionalidadFragment"
+        android:name="com.uca.edu.ni.peliculas.fragments.NacionalidadFragment"
+        android:label="@string/nacionalidad"
+        tools:layout="@layout/fragment_nacionalidad" />
+    <fragment
+        android:id="@+id/peliculaFragment"
+        android:name="com.uca.edu.ni.peliculas.fragments.PeliculaFragment"
+        android:label="@string/peliculas"
+        tools:layout="@layout/fragment_pelicula" />
+</navigation>

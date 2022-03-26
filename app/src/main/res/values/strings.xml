@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">@string/peliculas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clasificacion">Clasificación</string>
+    <string name="genero">Género</string>
+    <string name="idioma">Idioma</string>
+    <string name="nacionalidad">Nacionalidad</string>
+    <string name="peliculas">Películas</string>
+    <string name="menu_principal">Menú Principal</string>
+    <string name="nameclass">Desarrollo Ampliaciones Moviles 2</string>
+</resources>

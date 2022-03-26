@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/margen"
+    >
+
+    <TextView
+        style="@style/TextAppearance.Material3.TitleMedium"
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Brokeback Mountain"
+        android:layout_marginTop="@dimen/margen"
+        android:layout_marginBottom="@dimen/margen"
+        />
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Dos vaqueros se aman y viven en una montania."
+        />
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodySmall"
+        android:layout_marginTop="@dimen/margen_alto"
+        android:id="@+id/txtTipoMetraje"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Pelicula"
+        />
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodySmall"
+        android:layout_marginTop="@dimen/margen_bajo"
+        android:id="@+id/txtDuracion"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1 hora 30 minutos"
+        />
+
+</LinearLayout>
